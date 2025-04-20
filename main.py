@@ -7,6 +7,10 @@ push_ups = {
     "notes": "Really focus on form!",
 }
 
+for key, value in push_ups.items():
+    print(f"{key.upper()}: {value}")
+
+
 #print out each key in the dictionary
 keys = push_ups.keys()
 print(keys)
@@ -49,4 +53,11 @@ workout_plan = {
         "reps": 12,
         "notes": "Use dumbbells, keep your elbows close to your body."
     }
+
+    
+
 }
+
+
+#access Lunge notes
+print(workout_plan["Lunges"]["notes"])
